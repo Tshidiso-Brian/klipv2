@@ -73,6 +73,14 @@ Event Pages
   margin: 0;
   padding: 0; }
 
+  .col-12.col-sm-6.col-md-4.col-lg-44 {
+    margin-right: auto;
+    margin-left: auto;
+    max-width: max-content;
+}
+
+
+
 body {
   overflow-x: hidden;
   font-size: 15px;
@@ -1745,11 +1753,33 @@ footer {
     footer .become_techer_wrapper .become_a_teacher .title p {
       color: #ffffff;
       padding: 20px 0 35px; }
+
+    .btn111{
+      color: #ffffff;
+      background: #092ace;
+      font-weight: 500;
+      border-radius: 5px;
+     
+      display: inline-block;
+      font-size: 15px;
+      text-transform: uppercase;
+      text-decoration: none;
+      height: 60px;
+      line-height: 60px;
+      padding: 0 40px;
+      margin-bottom: 30px;
+      font-family: "Rubik", sans-serif;
+      -webkit-transition: all 0.3s ease-in-out;
+      transition: all 0.3s ease-in-out;
+      
+    }
+
     footer .become_techer_wrapper .become_a_teacher .get_s_btn a {
       background: #092ace;
       font-weight: 500;
       border-radius: 5px;
       color: #ffffff;
+      
       display: inline-block;
       font-size: 15px;
       text-transform: uppercase;
@@ -2566,6 +2596,34 @@ footer {
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
     cursor: pointer; }
+
+.button-223{
+  margin-right: 19em;
+    /* margin: 45px; */
+    background: #ff5a2c;
+    font-family: "Rubik", sans-serif;
+    padding: 0px 45px;
+    line-height: 60px;
+    font-size: 14px;
+    display: inline-block;
+    color: #ffffff;
+    height: 60px;
+    text-transform: uppercase;
+    border: none;
+    border-radius: 5px;
+    font-weight: 500;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    cursor: pointer;
+    align-content: center;
+    display: flex;
+    justify-content: center;
+    margin-top: 0em;
+    margin-left: 19em;
+    margin-bottom: 50px;
+
+}
+
     .teamgroup .teamgroup_info_wrapper .srtarte_btn:hover {
       background: #092ace; }
 
@@ -3540,7 +3598,10 @@ footer {
   min-height: 300px;
   background-size: cover;
   position: relative;
-  padding: 180px 0; }
+  padding: 100px 0; }
+
+
+  
   .header_inner .intro_wrapper:before {
     background: transparent;
     content: "";
@@ -3588,8 +3649,8 @@ footer {
       color: #ffffff; }
 
 /*=======[ Blog Signle ]========*/
-.blog_page .intro_wrapper {
-  background: url("../images/banner/inner_banner_2.jpg") no-repeat center center !important; }
+  /* .blog_page .intro_wrapper { */
+  /* background: url("../images/banner/inner_banner_2.jpg") no-repeat center center !important; } */
 
 .blog_wrapper {
   padding: 130px 0;

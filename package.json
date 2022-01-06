@@ -1,0 +1,29 @@
+{
+  "name": "eduwise-education-bootstrap",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "aws-sdk": "^2.1048.0",
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2",
+    "express-fileupload": "^1.2.1",
+    "express-handlebars": "^5.2.0",
+    "mongoose": "^6.1.4"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Tshidiso-Brian/klipvalley.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Tshidiso-Brian/klipvalley/issues"
+  },
+  "homepage": "https://github.com/Tshidiso-Brian/klipvalley#readme"
+}
