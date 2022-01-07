@@ -79,7 +79,32 @@ Event Pages
     max-width: max-content;
 }
 
-
+.viewersButton{
+  z-index: 14;
+  white-space: nowrap;
+  font-weight: 500;
+  color: rgb(255, 255, 255);
+  font-family: Rubik;
+  text-transform: uppercase;
+  background-color: rgb(9, 42, 206);
+  letter-spacing: 1px;
+  border-radius: 3px;
+  visibility: inherit;
+  transition: none 0s ease 0s;
+  text-align: left;
+  line-height: 34px;
+  margin: 0px;
+  padding: 12px 40px;
+  font-size: 14px;
+  min-height: 0px;
+  min-width: 0px;
+  max-height: none;
+  max-width: none;
+  opacity: 1;
+  transform: matrix3d(1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1, 0, 0, 0, 0, 1);
+  transform-origin: 50% 50% 0px;
+}
+}
 
 body {
   overflow-x: hidden;
