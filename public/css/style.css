@@ -248,13 +248,15 @@ div#preloader {
   .rev_slider_wrapper .tp-bullet.selected, .rev_slider_wrapper .tp-bullet:hover {
     background: #ff5a2c; }
 .rev_slider_wrapper #rev_slider_2 .tp-bullet {
-  width: 10px;
-  height: 10px;
-  border-radius: 50%; }
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  background-color: #008CC9; }
   .rev_slider_wrapper #rev_slider_2 .tp-bullet.selected {
     background: #ff5a2c;
     width: 20px;
-    border-radius: 50px; }
+    border-radius: 50px; 
+  display: none;}
 
 /*=======[LogIn & Signup Options ]========*/
 .is-hidden--off-flow {
