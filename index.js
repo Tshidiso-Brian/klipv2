@@ -96,6 +96,18 @@ app.get('/contact', function (req, res) {
   res.render('contact');
 });
 
+app.get('/events', function (req, res) {
+  res.render('events');
+});
+
+app.get('/event-detail', function (req, res) {
+  res.render('event-detail');
+});
+
+app.get('/gallery', function (req, res) {
+  res.render('gallery');
+});
+
 
 
 // endpoint that will handle the form
