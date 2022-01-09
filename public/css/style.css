@@ -879,12 +879,13 @@ header {
     header .header_top:before {
       position: absolute;
       content: "";
-      background: url(../images/shapes/shape_top.png) repeat center center;
+      /* background: url(../images/shapes/shape_top.png) repeat center center; */
       height: 263px;
       width: 100%;
       left: 0;
       top: 0;
-      opacity: 1; }
+      opacity: 1;
+    background-color: red; }
     header .header_top .info_wrapper {
       display: -webkit-box;
       display: -ms-flexbox;
@@ -894,7 +895,8 @@ header {
               justify-content: space-between;
       -webkit-box-align: center;
           -ms-flex-align: center;
-              align-items: center; }
+              align-items: center; 
+            background-color: red;}
       header .header_top .info_wrapper .contact_info ul {
         margin: 0;
         padding: 9px 0; }
@@ -950,7 +952,7 @@ header {
                 margin: 0;
                 padding-right: 10px; }
         header .header_top .info_wrapper .login_info .apply_btn {
-          background: #0828c2;
+          background: #3333FF;
           height: 54px;
           line-height: 54px;
           color: #fff;
@@ -1702,7 +1704,7 @@ header {
       padding: 0 40px; }
 
 footer {
-  background: #111b51;
+  background: red;
   position: relative;
   z-index: 1;
   padding: 0 0 150px 0;
@@ -1717,7 +1719,7 @@ footer {
     width: 50%;
     z-index: -1; }
   footer:after {
-    background: #111b51;
+    background:red;
     position: absolute;
     content: "";
     top: 0;
@@ -2609,7 +2611,7 @@ footer {
     font-size: 36px;
     line-height: 54px; }
   .teamgroup .teamgroup_info_wrapper .srtarte_btn {
-    background: #ff5a2c;
+    background: red;
     font-family: "Rubik", sans-serif;
     padding: 0px 45px;
     line-height: 60px;
@@ -2628,7 +2630,7 @@ footer {
 .button-223{
   margin-right: auto;
     /* margin: 45px; */
-    background: #ff5a2c;
+    background: red;
     font-family: "Rubik", sans-serif;
     padding: 0px 45px;
     line-height: 60px;
@@ -2649,7 +2651,7 @@ footer {
     margin-top: 0em;
     margin-left: auto;
     margin-bottom: 10px;
-    width: 30em
+    width: 21em
 
 }
 
@@ -2681,7 +2683,8 @@ footer {
     left: 50%;
     -webkit-transform: translateX(-50%);
             transform: translateX(-50%);
-    opacity: 0.5; }
+    opacity: 1;
+  background-color: red; }
 
 /*=======[ Index Three Header ]========*/
 .header_3 .header_top {
