@@ -67,6 +67,8 @@ app.use(fileUpload({
 //   res.sendFile('views/apply.html' , { root : __dirname});
 // })
 
+
+
 app.get('/', (req, res) => {
   
   res.render('home');
@@ -108,6 +110,9 @@ app.get('/gallery', function (req, res) {
   res.render('gallery');
 });
 
+app.get('/pictures', function (req, res) {
+  res.render('pictures');
+});
 
 
 // endpoint that will handle the form
