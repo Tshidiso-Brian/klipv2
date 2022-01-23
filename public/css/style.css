@@ -1446,7 +1446,7 @@ header {
       position: absolute;
       top: 0;
       right: 0;
-      background: #ff5a2c;
+      background: red;
       height: 60px;
       width: 60px;
       padding: 10px 0;
@@ -3626,14 +3626,13 @@ footer {
     width: 100%; }
 
 .header_inner .intro_wrapper {
-  background: url("../images/banner/banner_3.png") no-repeat center center;
+  background: url("../images/banner/heritage.jpg") no-repeat center center;
   min-height: 300px;
   background-size: cover;
   position: relative;
   padding: 100px 0; }
 
 
-  
   .header_inner .intro_wrapper:before {
     background: transparent;
     content: "";
