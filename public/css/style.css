@@ -1628,7 +1628,7 @@ header {
         transition: all 0.3s ease-in-out; }
     .blog .single_item .blog_title {
       padding: 25px;
-      background: #ffffff;
+      background: #f0ebebe3;
       margin-top: 0px;
       z-index: 1;
       position: relative;
