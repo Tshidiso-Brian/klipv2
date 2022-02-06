@@ -29,12 +29,11 @@ mongoose.connect('mongodb://localhost:27017/klipform');
 const Form = require('./models/form')
 
 
-
 const AWS = require('aws-sdk')
 
 AWS.config.update({
-//  accessKeyId: 'AKIA3ZCVAXZKJHYEKIMM',
-//  secretAccessKey: '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'
+ accessKeyId: 'AKIA3ZCVAXZKJHYEKIMM',
+ secretAccessKey: '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'
 })
 
 const s3 = new AWS.S3({ params: { Bucket: 'klipvalley-bucket3' }});
