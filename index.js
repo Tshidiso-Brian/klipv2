@@ -22,9 +22,9 @@ app.use(express.static('public'));
 // app.use(bodyParser.json());
 app.use(express.json()); // New
 
-const mongoose = require('mongoose')
+//const mongoose = require('mongoose')
 
-mongoose.connect('mongodb://localhost:27017/klipform');
+//mongoose.connect('mongodb://localhost:27017/klipform');
 
 const Form = require('./models/form')
 
